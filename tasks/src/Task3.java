@@ -34,6 +34,7 @@ public class Task3 {
             leftHalf.add(str.charAt(i));
             rightHalf.add(str.charAt(str.length() - 1 - i));
         }
+        String newAueOkno = "Fa";
         Iterator<Character> leftHalfIter = leftHalf.iterator();
         Iterator<Character> rightHalfIter = rightHalf.iterator();
         while (leftHalfIter.hasNext()) {
